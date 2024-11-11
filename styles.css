@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dfc2c2;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+.destination {
+    background-color: #f1e7e7;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 16px;
+    height: auto;
+    box-shadow: 0 2px 10px rgba(226, 224, 224, 0.1);
+}
+.destination img {
+    width: 100%;
+    margin: 16px;
+    height: auto;
+}
+.destination h3 {
+    margin: 16px;
+    height: auto;
+}
+.video {
+    margin-top: 30px;
+    text-align: center;
+}
